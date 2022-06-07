@@ -1,4 +1,5 @@
 # Nombre: Jhostyn Javier Gavilanez Suarez
+# Nombre: EXAMEN UNIDAD I
 
 # importar la libreria flask
 #En este apartado se añade la libreria de flask, entre otras para hacer el llamado y otras funcionalidades de la pagina del sistema de control.
@@ -61,7 +62,9 @@ def borrarRegistros():              # La funcion de envio de mensaje borrado se 
     ListasRegistros.clear()
     return redirect(url_for('panelPrincipal'))
 
-
+#--------------------------------------------------------
+# UTILIZACION DE LAS API 
+# ------------------------------------------------------
 
 
 
